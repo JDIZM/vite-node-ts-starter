@@ -1,5 +1,5 @@
-import {
-  compoundInterestPerPeriod
-} from "./compoundInterest";
+import { exampleFunction } from "./exampleFunction";
 
-export * from "./compoundInterest";
+exampleFunction("foo", "bar");
+
+export * from "./exampleFunction";
