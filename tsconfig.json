@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "target": "ES2021",
-    "module": "commonjs",
-    "lib": ["es2021"],
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "noEmit": false,
@@ -30,5 +31,5 @@
       "@/*": ["src/*"]
     }
   },
-  "exclude": ["node_modules", "dist", "test-package"]
+  "exclude": ["node_modules", "bin", "dist", "**/*.test.ts"]
 }
