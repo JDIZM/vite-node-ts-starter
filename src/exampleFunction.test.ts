@@ -1,6 +1,5 @@
 import { describe, expect, it } from "vitest";
 import { exampleFunction } from "./exampleFunction";
-import exp from "constants";
 
 describe("exampleFunction", () => {
   it("should do something...", () => {
