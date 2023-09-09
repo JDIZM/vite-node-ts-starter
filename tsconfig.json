@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "target": "ESNext",
+    "lib": ["ESNext"],
     "module": "ESNext",
     "moduleResolution": "NodeNext",
-    "lib": ["ESNext"],
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "noEmit": false,
