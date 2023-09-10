@@ -6,7 +6,7 @@
   "module": "dist/src/index.esm.js",
   "type": "module",
   "bin": {
-    "pkg-name": "./dist/src/index.js"
+    "pkg-name": "./dist/src/index.cjs"
   },
   "scripts": {
     "dev": "npx vite-node ./src/index.ts",
@@ -43,6 +43,9 @@
     "node": "16.18.1"
   },
   "exports": {
-    ".": "./dist/src/index.js"
+    ".": {
+      "import": "./dist/src/index.esm.js",
+      "require": "./dist/src/index.cjs"
+    }
   }
 }

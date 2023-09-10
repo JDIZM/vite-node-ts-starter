@@ -41,6 +41,16 @@ Build and install the package globally so you have access in your cli terminal.
 
 Then test the package is working and installed by calling the package name `pkg-name` in your terminal.
 
+`which pkg-name` should return the path to the package.
+
+calling `pkg-name` should return the following output.
+
+```
+version 1.0.0
+test 1234
+Hello world! [ 'foo', 'bar' ]
+```
+
 ### Testing
 
 This project uses [vitest](https://vitest.dev/) for testing.
