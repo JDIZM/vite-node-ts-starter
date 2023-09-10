@@ -1,5 +1,5 @@
 {
-  "name": "compound-interest",
+  "name": "vite-node-ts-starter",
   "version": "1.0.0",
   "description": "",
   "main": "dist/src/index.cjs",
