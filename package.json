@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/src/index.js",
   "module": "dist/src/index.esm.js",
+  "type": "module",
   "bin": {
     "pkg-name": "./dist/src/index.js"
   },

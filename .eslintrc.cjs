@@ -31,7 +31,9 @@ module.exports = {
   },
   rules: {
     // Add your own rules here to override ones from the extended configs.
-    "@typescript-eslint/no-explicit-any": "warn"
+    "@typescript-eslint/no-explicit-any": "warn",
+    // turn on errors for missing imports
+    "import/no-unresolved": "error"
   },
   overrides: [
     {
