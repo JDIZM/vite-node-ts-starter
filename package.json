@@ -2,7 +2,7 @@
   "name": "compound-interest",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/src/index.js",
+  "main": "dist/src/index.cjs",
   "module": "dist/src/index.esm.js",
   "type": "module",
   "bin": {
